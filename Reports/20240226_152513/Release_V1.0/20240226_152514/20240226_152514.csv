@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Release_V1.0,Chrome 122.0.0.0,,,26-02-2024 15:25:20,26-02-2024 15:26:10,50.138s,PASSED
+,,,,,,,
+Test Cases/TC - 01,Chrome 122.0.0.0,,,26-02-2024 15:25:20,26-02-2024 15:25:45,25.165s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,26-02-2024 15:25:20,26-02-2024 15:25:21,1.325s,PASSED
+"navigateToUrl(""https://demo.applitools.com/"")",Chrome 122.0.0.0,,,26-02-2024 15:25:21,26-02-2024 15:25:40,19.131s,PASSED
+"username = ""syidik""",Chrome 122.0.0.0,,,26-02-2024 15:25:40,26-02-2024 15:25:40,0.002s,PASSED
+"password = ""syidik""",Chrome 122.0.0.0,,,26-02-2024 15:25:40,26-02-2024 15:25:40,0.003s,PASSED
+"callTestCase(findTestCase(""Test Cases/Main Test Cases/Variable""), [""Username"":username, ""Password"":password], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,26-02-2024 15:25:40,26-02-2024 15:25:42,1.834s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/Button Login""))",Chrome 122.0.0.0,,,26-02-2024 15:25:42,26-02-2024 15:25:43,1.181s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Add Account""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:25:43,26-02-2024 15:25:44,0.312s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Make Payment""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:25:44,26-02-2024 15:25:44,0.302s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Financial Overview""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:25:44,26-02-2024 15:25:44,0.325s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Recent Transactions""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:25:44,26-02-2024 15:25:45,0.305s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,26-02-2024 15:25:45,26-02-2024 15:25:45,0.167s,PASSED
+,,,,,,,
+Test Cases/TC - 02,Chrome 122.0.0.0,,,26-02-2024 15:25:45,26-02-2024 15:26:10,24.838s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,26-02-2024 15:25:45,26-02-2024 15:25:46,0.733s,PASSED
+"navigateToUrl(""https://demo.applitools.com/"")",Chrome 122.0.0.0,,,26-02-2024 15:25:46,26-02-2024 15:26:05,19.179s,PASSED
+"username = ""raka""",Chrome 122.0.0.0,,,26-02-2024 15:26:05,26-02-2024 15:26:05,0.002s,PASSED
+"password = ""raka""",Chrome 122.0.0.0,,,26-02-2024 15:26:05,26-02-2024 15:26:05,0.002s,PASSED
+"callTestCase(findTestCase(""Test Cases/Main Test Cases/Variable""), [""Username"":username, ""Password"":password], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,26-02-2024 15:26:05,26-02-2024 15:26:06,1.297s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/Button Login""))",Chrome 122.0.0.0,,,26-02-2024 15:26:06,26-02-2024 15:26:08,2.078s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Add Account""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:26:08,26-02-2024 15:26:09,0.264s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Make Payment""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:26:09,26-02-2024 15:26:09,0.277s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Financial Overview""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:26:09,26-02-2024 15:26:09,0.294s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Recent Transactions""), 10, OPTIONAL)",Chrome 122.0.0.0,,,26-02-2024 15:26:09,26-02-2024 15:26:10,0.326s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,26-02-2024 15:26:10,26-02-2024 15:26:10,0.188s,PASSED
