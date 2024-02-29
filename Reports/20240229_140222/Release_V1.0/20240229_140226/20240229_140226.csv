@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Release_V1.0,Firefox 117.0,,,2024-02-29 14:02:35,2024-02-29 14:02:53,17.820s,PASSED
+,,,,,,,
+Test Cases/TC - 01,Firefox 117.0,,,2024-02-29 14:02:36,2024-02-29 14:02:46,10.176s,PASSED
+"openBrowser("""")",Firefox 117.0,,,2024-02-29 14:02:37,2024-02-29 14:02:40,3.236s,PASSED
+"navigateToUrl(""https://demo.applitools.com/"")",Firefox 117.0,,,2024-02-29 14:02:40,2024-02-29 14:02:41,0.842s,PASSED
+"username = ""syidik""",Firefox 117.0,,,2024-02-29 14:02:41,2024-02-29 14:02:41,0.001s,PASSED
+"password = ""syidik""",Firefox 117.0,,,2024-02-29 14:02:41,2024-02-29 14:02:41,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/Main Test Cases/Variable""), [""Username"":username, ""Password"":password], STOP_ON_FAILURE)",Firefox 117.0,,,2024-02-29 14:02:41,2024-02-29 14:02:43,2.193s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/Button Login""))",Firefox 117.0,,,2024-02-29 14:02:43,2024-02-29 14:02:44,0.865s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Add Account""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:44,2024-02-29 14:02:44,0.312s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Make Payment""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:44,2024-02-29 14:02:45,0.204s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Financial Overview""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:45,2024-02-29 14:02:45,0.222s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Recent Transactions""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:45,2024-02-29 14:02:45,0.205s,PASSED
+closeBrowser(),Firefox 117.0,,,2024-02-29 14:02:45,2024-02-29 14:02:46,0.723s,PASSED
+,,,,,,,
+Test Cases/TC - 02,Firefox 117.0,,,2024-02-29 14:02:46,2024-02-29 14:02:53,6.997s,PASSED
+"openBrowser("""")",Firefox 117.0,,,2024-02-29 14:02:47,2024-02-29 14:02:48,1.340s,PASSED
+"navigateToUrl(""https://demo.applitools.com/"")",Firefox 117.0,,,2024-02-29 14:02:48,2024-02-29 14:02:49,0.858s,PASSED
+"username = ""raka""",Firefox 117.0,,,2024-02-29 14:02:49,2024-02-29 14:02:49,0.001s,PASSED
+"password = ""raka""",Firefox 117.0,,,2024-02-29 14:02:49,2024-02-29 14:02:49,0.001s,PASSED
+"callTestCase(findTestCase(""Test Cases/Main Test Cases/Variable""), [""Username"":username, ""Password"":password], STOP_ON_FAILURE)",Firefox 117.0,,,2024-02-29 14:02:49,2024-02-29 14:02:50,0.745s,PASSED
+"click(findTestObject(""Object Repository/Page_ACME Demo App by Applitools/Button Login""))",Firefox 117.0,,,2024-02-29 14:02:50,2024-02-29 14:02:51,1.060s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Add Account""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:51,2024-02-29 14:02:51,0.301s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Button Make Payment""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:51,2024-02-29 14:02:52,0.242s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Financial Overview""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:52,2024-02-29 14:02:52,0.225s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ACME demo app/Label Recent Transactions""), 10, OPTIONAL)",Firefox 117.0,,,2024-02-29 14:02:52,2024-02-29 14:02:52,0.220s,PASSED
+closeBrowser(),Firefox 117.0,,,2024-02-29 14:02:52,2024-02-29 14:02:53,0.675s,PASSED

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Release_V1.0" time="17.82" tests="2" failures="0" errors="0">
+   <testsuite name="Release_V1.0" tests="2" failures="0" errors="0" time="17.82" skipped="0" timestamp="2024-02-29 14:02:35" hostname="root - 39415a940055" id="Test Suites/Release_V1.0">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/project/Reports/20240229_140222/Release_V1.0/20240229_140226"/>
+         <property name="logFiles" value="/tmp/project/Reports/20240229_140222/Release_V1.0/20240229_140226/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="root - 39415a940055"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 117.0"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="98f8606b-a41c-4233-92ec-8a8bd27ae0fb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/TC - 01" time="10.176" classname="Test Cases/TC - 01" status="PASSED">
+         <system-out><![CDATA[2024-02-29 14:02:36 - [TEST_CASE][PASSED] - Test Cases/TC - 01: Test Cases/TC - 01
+
+2024-02-29 14:02:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-29 14:02:37 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2024-02-29 14:02:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-29 14:02:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-29 14:02:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.applitools.com/"): Navigate to 'https://demo.applitools.com/' successfully
+
+2024-02-29 14:02:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.applitools.com/' successfully
+
+2024-02-29 14:02:41 - [TEST_STEP][PASSED] - username = "syidik": null
+
+2024-02-29 14:02:41 - [TEST_STEP][PASSED] - password = "syidik": null
+
+2024-02-29 14:02:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Main Test Cases/Variable"), ["Username":username, "Password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Variable' successfully
+
+2024-02-29 14:02:41 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Variable: Test Cases/Main Test Cases/Variable
+
+2024-02-29 14:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/input username"), Username): Text 'syidik' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input username'
+
+2024-02-29 14:02:43 - [MESSAGE][PASSED] - Text 'syidik' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input username'
+
+2024-02-29 14:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/input password"), Password): Text 'syidik' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input password'
+
+2024-02-29 14:02:43 - [MESSAGE][PASSED] - Text 'syidik' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input password'
+
+2024-02-29 14:02:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Variable' successfully
+
+2024-02-29 14:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ACME Demo App by Applitools/Button Login")): Object: 'Object Repository/Page_ACME Demo App by Applitools/Button Login' is clicked on
+
+2024-02-29 14:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ACME Demo App by Applitools/Button Login' is clicked on
+
+2024-02-29 14:02:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Button Add Account"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Button Add Account' is present
+
+2024-02-29 14:02:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Button Add Account' is present
+
+2024-02-29 14:02:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Button Make Payment"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Button Make Payment' is present
+
+2024-02-29 14:02:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Button Make Payment' is present
+
+2024-02-29 14:02:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Label Financial Overview"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Label Financial Overview' is present
+
+2024-02-29 14:02:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Label Financial Overview' is present
+
+2024-02-29 14:02:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Label Recent Transactions"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Label Recent Transactions' is present
+
+2024-02-29 14:02:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Label Recent Transactions' is present
+
+2024-02-29 14:02:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-29 14:02:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - 02" time="6.997" classname="Test Cases/TC - 02" status="PASSED">
+         <system-out><![CDATA[2024-02-29 14:02:46 - [TEST_CASE][PASSED] - Test Cases/TC - 02: Test Cases/TC - 02
+
+2024-02-29 14:02:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-29 14:02:47 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2024-02-29 14:02:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-29 14:02:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-29 14:02:48 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.applitools.com/"): Navigate to 'https://demo.applitools.com/' successfully
+
+2024-02-29 14:02:49 - [MESSAGE][PASSED] - Navigate to 'https://demo.applitools.com/' successfully
+
+2024-02-29 14:02:49 - [TEST_STEP][PASSED] - username = "raka": null
+
+2024-02-29 14:02:49 - [TEST_STEP][PASSED] - password = "raka": null
+
+2024-02-29 14:02:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Main Test Cases/Variable"), ["Username":username, "Password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Main Test Cases/Variable' successfully
+
+2024-02-29 14:02:49 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/Variable: Test Cases/Main Test Cases/Variable
+
+2024-02-29 14:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/input username"), Username): Text 'raka' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input username'
+
+2024-02-29 14:02:50 - [MESSAGE][PASSED] - Text 'raka' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input username'
+
+2024-02-29 14:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ACME Demo App by Applitools/input password"), Password): Text 'raka' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input password'
+
+2024-02-29 14:02:50 - [MESSAGE][PASSED] - Text 'raka' is set on object 'Object Repository/Page_ACME Demo App by Applitools/input password'
+
+2024-02-29 14:02:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Main Test Cases/Variable' successfully
+
+2024-02-29 14:02:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ACME Demo App by Applitools/Button Login")): Object: 'Object Repository/Page_ACME Demo App by Applitools/Button Login' is clicked on
+
+2024-02-29 14:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ACME Demo App by Applitools/Button Login' is clicked on
+
+2024-02-29 14:02:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Button Add Account"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Button Add Account' is present
+
+2024-02-29 14:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Button Add Account' is present
+
+2024-02-29 14:02:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Button Make Payment"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Button Make Payment' is present
+
+2024-02-29 14:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Button Make Payment' is present
+
+2024-02-29 14:02:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Label Financial Overview"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Label Financial Overview' is present
+
+2024-02-29 14:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Label Financial Overview' is present
+
+2024-02-29 14:02:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ACME demo app/Label Recent Transactions"), 10, OPTIONAL): Object 'Object Repository/Page_ACME demo app/Label Recent Transactions' is present
+
+2024-02-29 14:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ACME demo app/Label Recent Transactions' is present
+
+2024-02-29 14:02:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-29 14:02:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-29 14:02:35 - [TEST_SUITE][PASSED] - Release_V1.0: Test Cases/TC - 02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
